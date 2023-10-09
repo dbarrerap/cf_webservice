@@ -1,34 +1,60 @@
-
 {
-
-    "posts": [
-          {
-                "id": 1,
-                "title": "Post 1"
-          },
-          {
-                "id": 2,
-                "title": "Post 2"
-          },
-          {
-                "id": 3,
-                "title": "Post 3"
-          }
-    ],
-    "comments": [
-          {
-                "id": 1,
-                "body": "some comment",
-                "postId": 1
-          },
-          {
-                "id": 2,
-                "body": "some comment",
-                "postId": 1
-          }
-    ],
-    "profile": {
-          "name": "typicode"
+  "users": [
+    {
+      "id": 1,
+      "name": "David Barrera",
+      "username": "dbarrera",
+      "email": "example@domain.com",
+      "avatar": "https://www.gravatar.com/avatar/5f064d144075902a8d4b0e3b4e1d2bf8fd4c3eced6c1a61bbe10dda11a975204?s=120"
+    },
+    {
+      "id": 2,
+      "name": "Paola Gallo",
+      "username": "paolagallolopez",
+      "email": "example@domain.com",
+      "avatar": "https://placehold.co/400"
     }
-
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nisi lacus. Ut sit amet neque ac velit ornare lacinia. Nullam lacus lectus, porttitor et tristique semper, malesuada vitae felis.",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "content": "Suspendisse volutpat tempus eros, accumsan cursus nisi facilisis mollis. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+      "user_id": 1
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "content": "Aenean fringilla sollicitudin justo in tincidunt. Quisque gravida, nibh non laoreet elementum, neque metus laoreet orci, eget venenatis metus nulla vel eros. Quisque consectetur vulputate tempus.",
+      "user_id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "post_id": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "post_id": 1
+    },
+    {
+      "id": 3,
+      "body": "some comment",
+      "post_id": 2
+    },
+    {
+      "id": 3,
+      "body": "some comment",
+      "post_id": 3
+    }
+  ]
 }
